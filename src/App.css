@@ -5,7 +5,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
     color: rgb(10, 10, 10);
-    font-family:'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 html {
@@ -21,6 +21,24 @@ html {
     font-family: 'fontAvalon';
     src: url('/Fonts/Avalon\ Chaligraphy.ttf');
 }
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+    font-size: 1.1rem;
+    background-color: rgba(0, 110, 255, 0.13);
+}
+button:hover{
+    color: rgb(255, 216, 166);
+    transition: all .3s;
+    background-color: rgb(152, 185, 231);
+}
+p{
+    color: rgb(145, 89, 24);
+}
 
 .container-component {
     position: relative;
@@ -31,14 +49,8 @@ html {
     justify-content: center;
     align-items: center;
 }
-.container-component p{
-    font-size: 1.5rem;
-    width: 400px;
-    height: 50px;
-    margin-left: -800px;
-}
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,17 +66,22 @@ h2 {
     font-weight: 50;
     font-size: 5rem;
 }
- .text-about{
+h3{
+    font-size: 2rem;
+}
+
+.text-about {
     font-size: 1.5rem;
 
- }
+}
+
 .title {
     font-family: fontAustin;
     font-size: 10rem;
     font-weight: 100;
 }
 
-.pages{
+.pages {
     display: flex;
     width: 400px;
     grid-column: 1;
@@ -72,7 +89,8 @@ h2 {
     justify-content: center;
     gap: 20px;
 }
-.links{
+
+.links {
     width: 500px;
     display: flex;
     grid-column: 3;
@@ -88,27 +106,91 @@ h2 {
     width: 100vw;
     height: 50px;
     display: grid;
-    grid-template-columns: repeat(3 ,1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 242, 222, 0.295);
-   
     z-index: 5;
-    
 }
 
 a {
     cursor: pointer;
     transition: all .3s;
 }
-a:hover{
-    color:rgb(255, 145, 0);
+
+a:hover {
+    color: rgb(194, 118, 18);
     transition: all .3s;
+}
+
+#about p {
+    width: 400px;
+    height: 50px;
+    margin-left: -800px;
+    font-size: 1.5rem;
+}
+
+.card-proyects {
+    width: 100%;
+    height: 300px;   
+    margin-top:150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+.card-proyects article{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    margin: 20px;
+    text-align: center;
+
+}
+.card-proyects article h3{
+    font-size: 3rem;
+    font-family: 'fontAustin';
+    text-align: start;
+}
+.card-proyects div {    
+    width: 450px;
+    height: 250px; 
+    color: wheat;
+    background-image: url('/img/img-P1.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+}
+span{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    color: wheat;
+    background-color: rgba(128, 128, 128, 0.445);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+.card-proyects img {
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+    clip-path: circle(36% at 50% 50%);
 }
 
 .footer {
     width: 100vw;
     height: 50px;
-    background-color: rgba(128, 128, 128, 0.308);
     z-index: 5;
+    background-color: rgba(255, 242, 222, 0.295);
 }

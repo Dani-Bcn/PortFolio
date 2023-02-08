@@ -15,7 +15,6 @@ export function App() {
             <About />
             <Proyects />
             <Skills />
-
             <Footer />
         </main>
     );
