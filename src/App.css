@@ -78,6 +78,17 @@ h3{
     font-size: 1.5rem;
 
 }
+.card-about{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imgAbout{
+    width: 500px;
+    height: 400px;
+}
 
 .title {
     font-family: fontAustin;
@@ -130,7 +141,6 @@ a:hover {
 #about p {
     width: 400px;
     height: 50px;
-    margin-left: -800px;
     font-size: 1.5rem;
 }
 

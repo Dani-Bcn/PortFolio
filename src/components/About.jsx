@@ -1,4 +1,5 @@
 import React from 'react';
+import imgAbout from '/img/imgAbout.png'
 import { motion as m } from 'framer-motion'
 
 const About = () => {
@@ -13,7 +14,15 @@ const About = () => {
             }}>
             <section className='container-component'>
                 <h2>About</h2>
-                <p>As a good full stack developer I can create a website from start to finish, although where I enjoy the most is the layout... the designs, the transitions, the pixel perfect, etc...</p>
+                <section className='card-about'>
+                    <p>As a good full stack developer I can create a website from start to finish, although where I enjoy the most is the layout... the designs, the transitions, the pixel perfect, etc...</p>
+                    {/* <img className='imgAbout'  alt="Default img" /> */}
+                </section>
+
+
+
+
+              
             </section>
         </m.main>
     );
