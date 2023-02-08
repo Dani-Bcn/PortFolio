@@ -11,14 +11,12 @@ const Home = () => {
             transition:{
                 duration:2
             }
-
         }}>
             <section className='container-component'>  
             <h2>Home</h2>              
                 <h1 className='title'>Daniel</h1>
                 <h1 className='title'>Pérez</h1>
-            </section>           
-            
+            </section>                  
         </m.main>
     );
 }

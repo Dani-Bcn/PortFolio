@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import {motion as m} from  'framer-motion'
+import { Link } from 'react-router-dom';
 
  
 const CardProyects = () => {
@@ -37,7 +38,7 @@ const CardProyects = () => {
                     <m.span
                            variants={variantImg}
                            animate ={isOpen ? "open" :"close"}
-                    >More information</m.span>
+                    ><Link to="ahorcado"><p>More information</p></Link></m.span>
                 </m.div>
                 </m.section>
             <article>
