@@ -20,7 +20,7 @@ const Proyects = () => {
                     }}
                 >
                 <section className='container-component'>
-                <h2>Proyects</h2>
+               
                    <CardProyectsPokeApi/>
                    <CardProyectsMovieApi/>
 

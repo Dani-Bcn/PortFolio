@@ -314,3 +314,16 @@ a:hover {
 .contact img{
 margin-right: 50px;
 }
+.skills{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-skills{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
