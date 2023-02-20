@@ -3,7 +3,7 @@ import {motion as m} from  'framer-motion'
 import { Link } from 'react-router-dom';
 
  
-const CardProyects = () => {
+const CardProyectsPokeApi = () => {
     const [isOpen, setIsOpen] = useState(false)
     const variantImg = {
         open:{
@@ -54,4 +54,4 @@ const CardProyects = () => {
 
 }
 
-export default CardProyects;
+export default CardProyectsPokeApi;

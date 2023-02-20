@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion as m, AnimatePresence } from 'framer-motion'
-import CardProyects from './CardProyects';
-
+import CardProyectsMovieApi from './CardProyectsMovieApi';
+import CardProyectsPokeApi from './CardProyectsPokeApi';
 const Proyects = () => {
     return (
         <AnimatePresence>
-            <m.main className='container' id="proyects"
+            <m.main className='container-proyects' id="proyects"
                 whileInView={{
                     opacity: [0, 1],
                     transition: {
@@ -21,7 +21,8 @@ const Proyects = () => {
                 >
                 <section className='container-component'>
                 <h2>Proyects</h2>
-                   <CardProyects></CardProyects>
+                   <CardProyectsPokeApi/>
+                   <CardProyectsMovieApi/>
 
                 </section>
             </m.main>
