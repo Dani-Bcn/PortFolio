@@ -4,20 +4,22 @@ import { motion as m } from 'framer-motion'
 const Skills = () => {
     console.log(images)
     return (
-        <m.main className='container' id="skills"
+        <m.main className='main-page-skills' id="skills"
             whileInView={{
                 opacity: [0, 1],
                 transition: {
                     duration: 2
                 }
             }}>
-            <section className='skills'>
-              
+            <h2>Skills</h2>
+            <section className='container-skills-img'>
                 {
-                    images.map((e,i)=>(                     
-                        <img  className='img-skills' key={i} src={e} alt="" /> 
+                    images.map((e, i) => (
+                        <div  key={i} className='skills-img' >
+                            <span style={{ backgroundImage: `url(${e})` }}></span>
+                        </div>
                     ))
-                }               
+                }
             </section>
         </m.main>
     );

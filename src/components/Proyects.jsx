@@ -5,7 +5,7 @@ import CardProyectsPokeApi from './CardProyectsPokeApi';
 const Proyects = () => {
     return (
         <AnimatePresence>
-            <m.main className='container-proyects' id="proyects"
+            <m.main  className='main-page-proyects' id="proyects"
                 whileInView={{
                     opacity: [0, 1],
                     transition: {
@@ -19,7 +19,8 @@ const Proyects = () => {
                         }
                     }}
                 >
-                <section className='container-component'>
+                    <h2>Proyects</h2>
+                <section className='container-proyects'>
                
                    <CardProyectsPokeApi/>
                    <CardProyectsMovieApi/>

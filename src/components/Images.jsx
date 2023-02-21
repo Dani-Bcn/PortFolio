@@ -1,19 +1,19 @@
-import Html5 from '/img/html5.png'
-import Css3 from '/img/css.png'
-import Js from '/img/js.png'
-import React from '/img/react.png'
-import Node from '/img/node.png'
-import Express from '/img/express.png'
-import Mongo from '/img/mongodb.png'
-import Postman from '/img/postman.png'
-import Git from '/img/git.png'
-import Github from '/img/github.png'
-import Heroku from '/img/heroku.png'
-import Cloudinary from '/img/cloudinary.png'
-import Netlify from '/img/netlify.png'
-import Figma from '/img/figma.png'
-import Photoshop from '/img/photoshop.png'
-import Ilustrator from '/img/ilustrator.png'
+import Html5 from '/img/html5.svg'
+import Css3 from '/img/css.svg'
+import Js from '/img/js.svg'
+import React from '/img/react.svg'
+import Node from '/img/node.svg'
+import Express from '/img/express.svg'
+import Mongo from '/img/mongodb.svg'
+import Postman from '/img/postman.svg'
+import Git from '/img/git.svg'
+import Github from '/img/github.svg'
+import Heroku from '/img/heroku.svg'
+import Cloudinary from '/img/cloudinary.svg'
+import Netlify from '/img/netlify.svg'
+import Figma from '/img/figma.svg'
+import Photoshop from '/img/photoshop.svg'
+import Ilustrator from '/img/ilustrator.svg'
 import Cinema from '/img/cinema.png'
 
 
@@ -35,7 +35,6 @@ const images =[
     Photoshop,
     Ilustrator,
     Cinema
-
 ]
 
 
