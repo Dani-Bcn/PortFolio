@@ -8,15 +8,13 @@ import { Link } from 'react-router-dom';
 const PageContact = () => {
     return (
         <main className='contact'>
-            <section>
-                <Link to="/"><h3>Back</h3></Link>
-                <h2>Contact me</h2>
+               
+            <section className='container-contact'>
+            <h3>Contact me</h3>
                 <span>
                     <img src={mail} alt="" />
                     <a href="mailto:nneodani@gmail.com">Send message</a>
                 </span>
-             
-
                 <span>
                     <img src={phone} alt="" />
                     <p>651110553</p>
@@ -25,10 +23,8 @@ const PageContact = () => {
                     <img src={ubi} alt="" />
                     <p>Barcelona</p>
                 </span>
-            
-
+                <Link to={"/"}><button href="/">Back</button></Link>
             </section>
-
         </main>
     );
 }

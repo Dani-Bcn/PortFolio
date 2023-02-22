@@ -36,9 +36,9 @@ h3 {
 }
 
 button {
-    width: 100px;
+    width: 110px;
     height: 10px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     font-family: 'Raleway', sans-serif;
     margin: 20px;
@@ -58,6 +58,7 @@ a {
     color: black;
     transition: all 0.5s;
 }
+
 a:hover {
     color: wheat;
     transition: all 0.5s;
@@ -121,7 +122,7 @@ a:hover {
 
 .container-proyects {
     width: 100vw;
-    height: 120vh;
+    height: 170vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -151,6 +152,15 @@ a:hover {
     margin: 25px;
 }
 
+.container-images-home {
+    overflow: hidden;
+    width: 550px;
+    height: 300px;
+    background-image: url('/img/img-kids/homeKids-2.png');
+    background-size: 100% 100%;
+    margin: 25px;
+}
+
 .span-proyects {
     width: 100%;
     height: 300px;
@@ -175,7 +185,8 @@ a:hover {
     align-items: flex-start;
     margin: 0 20px;
 }
-.main-page-skills{
+
+.main-page-skills {
     height: 150vh;
     margin-top: 150px;
     display: flex;
@@ -188,8 +199,9 @@ a:hover {
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    
+
 }
+
 .skills-img span {
     width: 150px;
     height: 150px;
@@ -204,6 +216,33 @@ a:hover {
     background-color: rgba(255, 238, 238, 0);
     display: flex;
     margin: 10px;
-  
-   
+}
+
+.contact {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(200, 208, 226);
+    display: flex;
+    flex-direction: column;
+}
+
+.container-contact {
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-contact img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+
+.container-contact span {
+    display: flex;
+    margin: 25px;
+    gap: 50px;
 }

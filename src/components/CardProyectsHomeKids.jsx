@@ -33,7 +33,7 @@ const CardProyectsPokeApi = () => {
 
     return (
         <section className='card-proyects'>
-        <m.section className='container-images-poke' onHoverStart={() => handleHoverStart()} onHoverEnd={() => handleHoverEnd()}>
+        <m.section className='container-images-home' onHoverStart={() => handleHoverStart()} onHoverEnd={() => handleHoverEnd()}>
             <m.div >
                 <m.span className='span-proyects'
                     variants={variantImg}
@@ -43,12 +43,12 @@ const CardProyectsPokeApi = () => {
             </m.div>
         </m.section>
         <article className='card-article'>
-            <h3>Poke_Ahorcado</h3>
-            <p>Hangman game with all Pokemon names.</p>
+            <h3>Homeworks For kids</h3>
+            <p>App to organize children's household chores.</p>
         </article>
         <article>
-            <a href="https://github.com/Dani-Bcn/MoviesApp" target="_blank"><button>Github</button></a>
-            <a href="https://apiappmovies.netlify.app/" target="_blank"><button>Proyect</button></a>
+            <a href="https://github.com/Dani-Bcn/Home-works-frontEnd" target="_blank"><button>Github front_end</button></a>
+            <a href="https://github.com/Dani-Bcn/Home-works-backEnd" target="_blank"><button>Github back_end</button></a>
         </article>
     </section>
     );

@@ -44,7 +44,7 @@ const CardProyectsMovieApi = () => {
             </m.section>
             <article className='card-article'>
                 <h3>MoviesApp</h3>
-                <p>App / Web to see the information of all the movies</p>
+                <p>App / Web to view movies and series information.</p>
             </article>
             <article>
                 <a href="https://github.com/Dani-Bcn/MoviesApp" target="_blank"><button>Github</button></a>
