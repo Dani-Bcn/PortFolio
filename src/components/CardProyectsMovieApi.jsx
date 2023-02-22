@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { motion as m } from 'framer-motion'
 import { Link } from 'react-router-dom';
 
-
 const CardProyectsMovieApi = () => {
     const [isOpen, setIsOpen] = useState(false)
     const variantImg = {
@@ -28,7 +27,6 @@ const CardProyectsMovieApi = () => {
     })
     const handleHoverEnd = (() => {
         setIsOpen(!isOpen)
-
     })
 
     return (

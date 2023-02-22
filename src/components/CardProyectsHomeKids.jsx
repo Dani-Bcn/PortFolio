@@ -28,7 +28,6 @@ const CardProyectsPokeApi = () => {
     })
     const handleHoverEnd = (() => {
         setIsOpen(!isOpen)
-
     })
 
     return (
@@ -38,7 +37,7 @@ const CardProyectsPokeApi = () => {
                 <m.span className='span-proyects'
                     variants={variantImg}
                     animate={isOpen ? "open" : "close"}
-                ><Link to="ahorcado"><p>More information</p></Link>
+                ><Link to="homeKids"><p>More information</p></Link>
                 </m.span>
             </m.div>
         </m.section>
@@ -52,7 +51,6 @@ const CardProyectsPokeApi = () => {
         </article>
     </section>
     );
-
 }
 
 export default CardProyectsPokeApi;

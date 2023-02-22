@@ -47,8 +47,8 @@ const CardProyectsPokeApi = () => {
             <p>Hangman game with all Pokemon names.</p>
         </article>
         <article>
-            <a href="https://github.com/Dani-Bcn/MoviesApp" target="_blank"><button>Github</button></a>
-            <a href="https://apiappmovies.netlify.app/" target="_blank"><button>Proyect</button></a>
+            <a href="https://github.com/Dani-Bcn/Poke_ahorcado" target="_blank"><button>Github</button></a>
+            <a href="https://pokeahorcado.netlify.app/" target="_blank"><button>Proyect</button></a>
         </article>
     </section>
     );

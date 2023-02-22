@@ -114,7 +114,7 @@ a:hover {
 
 .main-page-proyects {
     width: 100vw;
-    height: 160vh;
+    height: 210vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -157,6 +157,8 @@ a:hover {
     width: 550px;
     height: 300px;
     background-image: url('/img/img-kids/homeKids-2.png');
+    
+  
     background-size: 100% 100%;
     margin: 25px;
 }
@@ -188,7 +190,6 @@ a:hover {
 
 .main-page-skills {
     height: 150vh;
-    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -199,7 +200,6 @@ a:hover {
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .skills-img span {
@@ -245,4 +245,57 @@ a:hover {
     display: flex;
     margin: 25px;
     gap: 50px;
+}
+
+.page-homeKids {
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+ .container-img-open {   
+    width: 600px;
+    height: 350px;
+    margin: 50px;   
+    background-size: cover;
+    overflow: scroll;
+    scroll-behavior: auto;
+    clip-path: circle(70.7% at 50% 50%);
+    transition: all 0.5s;
+}
+
+.img-kids-open {
+    width:1366px;
+    height: 768px;
+     background-image: url('/img/img-kids/homeKids-7.png');
+     background-size:cover;
+     transition: all .5s;
+     background-repeat: no-repeat;   
+} 
+
+.img-kids {
+    width:600px;
+    height: 350px;
+     background-image: url('/img/img-kids/homeKids-6.png');
+     background-size:cover;
+     transition: all .5s;
+     background-repeat: no-repeat;  
+}
+
+.container-img{ 
+    overflow: hidden;
+    width: 600px;
+    height: 350px;
+    margin: 50px;   
+    clip-path: circle(30% at 50% 50%);
+    transition: all 0.5s;
+  }
+
+
+.section-separate {
+    width: 90vw;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
