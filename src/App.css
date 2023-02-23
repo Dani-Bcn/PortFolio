@@ -156,9 +156,9 @@ a:hover {
     overflow: hidden;
     width: 550px;
     height: 300px;
-    background-image: url('/img/img-kids/homeKids-2.png');
-    
-  
+    background-image: url('/img/img-kids/homeKids-1.png');
+
+
     background-size: 100% 100%;
     margin: 25px;
 }
@@ -249,53 +249,73 @@ a:hover {
 
 .page-homeKids {
     width: 100vw;
-    height: 150vh;
     display: flex;
     flex-direction: column;
+    transition: all 0.5s;
+    align-items: center;
+    justify-content: space-evenly;
 }
- .container-img-open {   
+
+.section-separate {
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-img-open {
     width: 600px;
     height: 350px;
-    margin: 50px;   
-    background-size: cover;
+    margin: 50px;
     overflow: scroll;
     scroll-behavior: auto;
-    clip-path: circle(70.7% at 50% 50%);
     transition: all 0.5s;
 }
 
 .img-kids-open {
-    width:1366px;
+    width: 1366px;
     height: 768px;
-     background-image: url('/img/img-kids/homeKids-7.png');
-     background-size:cover;
-     transition: all .5s;
-     background-repeat: no-repeat;   
-} 
-
-.img-kids {
-    width:600px;
-    height: 350px;
-     background-image: url('/img/img-kids/homeKids-6.png');
-     background-size:cover;
-     transition: all .5s;
-     background-repeat: no-repeat;  
+    background-image: url('/img/img-kids/homeKids-7.png');
+    background-size: 100% 100%;
+    transition: all .5s;
+    background-repeat: no-repeat;
 }
 
-.container-img{ 
+.img-kids {
+    width: 600px;
+    height: 350px;
+    background-image: url('/img/img-kids/homeKids-6.png');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+    background-repeat: no-repeat;
+}
+
+.container-img {
     overflow: hidden;
     width: 600px;
     height: 350px;
-    margin: 50px;   
-    clip-path: circle(30% at 50% 50%);
+    margin: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
     transition: all 0.5s;
-  }
+}
 
-
-.section-separate {
-    width: 90vw;
-    height: 120vh;
+.section-postman {
+    width: 90vh;
+    height: 500px;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    
+}
+
+.img-postman{
+    width: 800px;
+    height: 400px;
+    margin: 50px;
+    background-size: 100% 100%;
 }
