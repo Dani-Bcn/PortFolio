@@ -5,6 +5,7 @@ import PageMovies from './pages/PageMovies';
 import PageHomeKids from './pages/PageHomeKids';
 import Components from './Components';
 import PageContact from './pages/PageContact'
+import PageAbout from './pages/PageAbout';
 export function App() {
     return (
         <>
@@ -15,6 +16,7 @@ export function App() {
                     <Route path='/movies' element={<PageMovies />} />
                     <Route path='/contact' element={<PageContact/>} />
                     <Route path='/homeKids' element={<PageHomeKids/>}/>
+                    <Route path='/about' element={<PageAbout/>}/>
                 </Routes>
             </main>
         </>
